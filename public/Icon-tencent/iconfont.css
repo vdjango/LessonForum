@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1547089763601'); /* IE9 */
+  src: url('iconfont.eot?t=1547089763601#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOwAAsAAAAAB8gAAANjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDMIMHATYCJAMMCwgABCAFhG0HNRvMBsgekiRIQAEFAAoAYZni4fu137lPdvdjmiCJN7pnhsSQiCS6hUaCEgkVL5WQvIQ9+k5/Dk0BbUp6L73Gm30g9CXG7P9cTu8a4vMD5TTHxqNegHFAAY09iQokQW8Yu6AlricwZFEQ5iinqAoMFGa3QFyKsnYwyKiUhuzQCU3F2ALxAHq6NI69COA++H78Q0QYgKRmMPueXGR3QdqX1WspN/T/UE0eAuzpDGCTyNgCCnFeaTrDRaEtnCFVxDcnN4qQpvL+7wlYmqCx/vBIgmjAzBwBayic+LJyWIlYCjlXzX64zg1a3AF4ktQzzGc2Yt7Q0NLIKLHPBNvbt2tu3qy6dau4qnbVKe8J9vOZO3dqJqwbunb8+mEbqlxmSqpsU1w9YY9vdc2ROx2VCvtVVGYcvbdx603vWQcCb5WvPAiLblWfueNsPO9W9p077sMO+9yoXbfPfs3tiM3XfewXBzDD7Ea7y0yARxfblUcXSsyf2bVt6debGclsm80RSNsX17q1KGNOxR3F9RZ7suKsCTG1VlVeFrKTdK7Y6qQXktVn+p/UNn+YgiHMrGFsG7hh1lDC2P8QakLtSz4nNbY1mXg4SrdapDtmLMD7gG57oqQl8bWixDJj6oNwW8u64AzYWuW90Xqhqz+aAen9GVvph6UWGSUDbydKWiammOUa80a8pVJvwPRlQ9kh7IxlSKG0zKcZ5/6DNmbH/Ma+AOjzRi765/3G7Q0Z1Gqe9NXAmAf4bLrbGTj6At3SQSfRmf2r2B1LisY11bkoLIdluLNjv8OQgAyu0yPblMfDLbMgMYSOsyEkrQXIOktoIW5BNWwHGp1dGLIpd/KwaQQniiGwYRSAMGELJGM+IJtwCS3ER1DN+QSNieBgyGlYzzlsJUSjTILbKe5CHf2Q2KlWCbaWGoXZFVjWS9FO0tyAVIOJTvSi8JCwfDQXqzCZYoCutyyCUgEJRK1EOWAzrFCokYaoe3AnDemmVJMQGipUvSikU60EI4cIrB2FdUE69IOIOqmpCF5lyqjw+QqYTC8K7UgDpkpfAyN0xNqRcCHCOqC5IlUnzK1cotObTASKEiACQk0JyQEGTGGF1BBNdaseWCcqRPeAgEaCUFRO6CoKWV6ifL9VMMRcKgfLcAwPzRUW+4oqVqsFAAA=') format('woff2'),
+  url('iconfont.woff?t=1547089763601') format('woff'),
+  url('iconfont.ttf?t=1547089763601') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1547089763601#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+[class^="icon"], [class*=" icon"] {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weixin:before {
+  content: "\e621";
+}
+
+.icon-qq:before {
+  content: "\e612";
+}
+
