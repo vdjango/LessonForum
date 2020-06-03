@@ -6,36 +6,31 @@
 </p>
 
 
-* [Hanfu 社区 *](https://github.com/hanfucn/HanfuForum)
-* [Hanfu 移动端](https://github.com/hanfucn/HanfuApp)
-* [Hanfu 后端 *](https://github.com/hanfucn/HanfuRestful/)
+本程序包含2部分，分别是：
+
+> 这是一个 [前/后] 分离项目，这意味着您可以自由地在您的服务器上部署它。
+
+* [前端UI *](https://github.com/vdjango/LessonForum)
+* [后端 *](https://github.com/vdjango/LessonRestful)
 
 
+优雅的开源 课程系统，现在，回应您的等待。
 
-优雅的开源 Hanfu 社区，现在，回应您的等待。
+# 本部分为前端UI部分
 
-Hanfu 社区 是一款能让您上传、发布和分享, 于汉服结合于一体的论坛社交 Web 应用程序。与普通社区（论坛）不同的是，可搭配 微信小程序，安卓APP， IOS APP。还包含了微信公众号，QQ机器人 结合一体的 综合性的社交 Web 应用程序（当然，您可以只选用一个应用程序哦）。
+课程系统 是一款能让您 管理 添加 修改 学员/积分 学员考试，学生，班级，课程等
+, 于课程题库结合于一体的综合 Web 应用程序。
 
-Hanfu 是一个开源的 [Python] 项目，这意味着您可以自由地在您的服务器上部署它。这里有一个 [演示站点](http://www.vdjango.net/)。
+课程系统 是一个开源的 [Python] 项目，这意味着您可以自由地在您的服务器上部署它。当然，您可以继续完善它
 
-需求
------------
-- 社区功能，
-- 活动功能，同袍可以自由发起活动
 
 环境要求
 -----------
-Hanfu 社区 对您的服务器有一定的要求
+这对您的服务器有一定的要求
 
 - 一台支持 URL 重写的主机，Nginx、Apache
 - **nodejs >= 10.1**
-
-
-快速使用
------------
-请参阅 [Wiki - 快速安装向导]()。
-
-图
+- npm i
 
 自行构建
 ------------
@@ -46,19 +41,18 @@ Hanfu 社区 对您的服务器有一定的要求
 从 Git 上 clone 源码并安装依赖:
 
 ```bash
-$ git clone git@github.com:hanfucn/HanfuForum.git
+$ git clone ....
 $ npm i
 $ npm run build
+# nginx --> dict/
 ```
-
-接下来请参考「快速安装向导」进行后续安装。
 
 问题报告
 ------------
-请参阅 [Wiki - 报告问题的正确姿势]()。
+请提交lssues
 
 版权
 ------------
-Copyright (C) 2019 Hanfucn.
+Copyright (C) 2020 君思.
 
-> Hanfu 是基于 GNU General Public License version 3 开放源代码的自由软件，你可以遵照 GPLv3 协议来修改或重新发布本程序。
+> 基于 GNU General Public License version 3 开放源代码的自由软件，你可以遵照 GPLv3 协议来修改或重新发布本程序。
