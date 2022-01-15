@@ -21,7 +21,7 @@
     "js-striphtml": "^1.1.2",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
-    "marked": "^0.8.0",
+    "marked": "^4.0.10",
     "moment": "^2.24.0",
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2",
